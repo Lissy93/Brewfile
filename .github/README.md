@@ -1,6 +1,13 @@
-# Lissy93/Brewfile 🍺
 
-> List of packages to be installed via Homebrew, to seup a development machine
+<h1 align="center">Lissy93/Brewfile</h1>
+<p align="center"><i>Manifest of *nix packages to be installed via Homebrew, to seup a Mac OS development machine</i></p>
+<p align="center">
+  <a href="https://github.com/lissy93/brewfile/">
+    <img width="160" src="https://i.ibb.co/LhhDNg7/brewfile-repo-logo.png" />
+  </a>
+</p>
+
+
 
 
 ## Getting Started
@@ -311,6 +318,8 @@ Other package managers have similar features. For example, [here's the scripts](
 ## Contributing
 
 Contributions are welcome :)
+
+Changes to the Brewfile should be made up-stream, directly into [Lissy93/Dotfiles](https://github.com/lissy93/dotfiles) (in [`Brewfile`](https://github.com/Lissy93/dotfiles/blob/master/installs/Brewfile)), which will then be automatically synced to this repo.
 
 If you're new to GitHub, see the [documentation](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) for a step-by-step guide on how to submit edits to projects.
 
