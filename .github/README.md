@@ -12,22 +12,13 @@
 
 ## Getting Started
 
-All packages listed in [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) can be installed using `brew bundle`. For example:
+To get started, just run the setup script:
 
-```bash
-wget -O ~/.Brewfile https://raw.githubusercontent.com/Lissy93/Brewfile/master/Brewfile
-brew bundle --global --file ~/.Brewfile
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lissy93/brewfile/HEAD/guided-install.sh)"
 ```
 
-Be sure to remove / comment out anything that you do not need.
-
-This of course requires Homebrew to be installed, so if you haven't already done so - run:
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-For a more detailed example, see [this section](https://github.com/Lissy93/dotfiles/blob/master/install.sh#L205-L250) of my dotfile installation script.
+Alternatively, you can just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
 
 ---
 
