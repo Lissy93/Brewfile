@@ -6,6 +6,10 @@
   <meta name="description" content="Manifest of *nix packages for MacOS via Homebrew">
   <meta name="keywords" content="GitHub,Code,Alicia,Sykes,Brewfile,Dotfiles,Redirect">
   <meta name="author" content="Alicia Sykes">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:title" content="Lissy93/Brewfile" />
+  <meta property="og:url" content="https://lissy93.github.io/Brewfile" />
+  <meta property="og:image" content="https://i.ibb.co/wzh18Bj/brewfile-banner-img.png" />
 </head>
 <body>
   <main>
@@ -46,6 +50,7 @@
       padding: 0;
       background: #3a3021;
       color: #d3af86;
+      transition: left 5s ease-out;
       font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace
     }
     main {
@@ -56,12 +61,12 @@
       flex-direction: column;
       max-width: 650px;
       border-radius: 0.4rem;
-      padding: 0.25rem 2rem;
+      padding: 0.25rem 2rem 1rem;
       background: #453827;
       box-shadow: 2px 2px 2px #292218, -10px -10px 12px #29221842;
     }
     img.top-logo {
-      width: 12rem;
+      width: 10rem;
     }
     h1, h2, h3 {
       color: #fbb040;
@@ -128,6 +133,9 @@
     ::selection {
       background-color: #fbb040;
       color: #3a3021;
+    }
+    body {
+      background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23453827' fill-opacity='0.56'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     }
 
   </style>
