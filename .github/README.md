@@ -15,7 +15,7 @@
 To get started, just run the setup script:
 
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/lissy93/brewfile/HEAD/guided-install.sh)"
+bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
 ```
 
 Alternatively, you can just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
@@ -302,7 +302,7 @@ Be sure to remove anything that you do not need before installing.
 The Brewfile is really useful to incorporate into your dotfiles, or for quickly setting up new machines.
 You can see how I am using this in [Lissy93/Dotfiles](https://github.com/Lissy93/dotfiles).
 
-Other package managers have similar features. For example, [here's the scripts](https://github.com/Lissy93/dotfiles/tree/master/installs) I use to manage my package list for Arch, Debian, Alpine and MacOS.
+Other package managers have similar features. For example, [here's the scripts](https://github.com/Lissy93/dotfiles/tree/master/scripts/installs) I use to manage my package list for Arch, Debian, Alpine and MacOS.
 
 ---
 
@@ -310,7 +310,7 @@ Other package managers have similar features. For example, [here's the scripts](
 
 Contributions are welcome :)
 
-Changes to the Brewfile should be made up-stream, directly into [Lissy93/Dotfiles](https://github.com/lissy93/dotfiles) (in [`Brewfile`](https://github.com/Lissy93/dotfiles/blob/master/installs/Brewfile)), which will then be automatically synced to this repo.
+Changes to the Brewfile should be made up-stream, directly into [Lissy93/Dotfiles](https://github.com/lissy93/dotfiles) (in [`Brewfile`](https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/Brewfile)), which will then be automatically synced to this repo.
 
 If you're new to GitHub, see the [documentation](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) for a step-by-step guide on how to submit edits to projects.
 
