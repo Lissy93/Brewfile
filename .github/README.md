@@ -1,24 +1,30 @@
 
 <h1 align="center">Lissy93/Brewfile</h1>
-<p align="center"><i>Manifest of *nix packages to be installed via Homebrew, to seup a Mac OS development machine</i></p>
+<p align="center"><i>My list of *nix packages to be installed on MacOS via Homebrew, for the ultimate dev setup</i></p>
 <p align="center">
   <a href="https://github.com/lissy93/brewfile/">
-    <img width="160" src="https://i.ibb.co/LhhDNg7/brewfile-repo-logo.png" />
+    <img width="120" src="https://i.ibb.co/LhhDNg7/brewfile-repo-logo.png" />
   </a>
 </p>
-
-
 
 
 ## Getting Started
 
 To get started, just run the setup script:
 
-```
+```bash
 bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
 ```
 
+<p align="center">
+  <a href="https://lissy93.github.io/Brewfile" title="Screenshot of the guided installation script">
+    <img width="650" src="https://i.ibb.co/g63WYBF/brewfile-install-script.png" alt="Brewfile automated installation script" />
+  </a>
+</p>
+
 Alternatively, you can just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
+
+If you wish to make any ammendments, you can [fork](https://github.com/Lissy93/Brewfile/fork) this repo to easily keep track of your own package list.
 
 ---
 
@@ -44,9 +50,10 @@ It includes several keywords, like `brew`, `cask`, `tap`, `mas`, etc - this is e
 
 The following packages will be installed, with the aim to setup a fully-featured development machine.
 
-For the most up-to-date list, view the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) itself.
+<details>
+<summary><b>Click to expand full package list</b> ↕️</summary>
 
-Be sure to remove anything that you do not need before installing.
+> **Note**: _Be sure to remove anything that you do not need before installing._
 
 ### Command Line
 
@@ -295,13 +302,14 @@ Be sure to remove anything that you do not need before installing.
 
 </details>
 
+</details>
+
 ---
 
 ## Bigger Picture
 
 The Brewfile is really useful to incorporate into your dotfiles, or for quickly setting up new machines.
 You can see how I am using this in [Lissy93/Dotfiles](https://github.com/Lissy93/dotfiles).
-
 Other package managers have similar features. For example, [here's the scripts](https://github.com/Lissy93/dotfiles/tree/master/scripts/installs) I use to manage my package list for Arch, Debian, Alpine and MacOS.
 
 ---
@@ -309,16 +317,19 @@ Other package managers have similar features. For example, [here's the scripts](
 ## Contributing
 
 Contributions are welcome :)
+If you're new to GitHub, see the [documentation](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) for a step-by-step guide on how to submit edits to projects.
 
 Changes to the Brewfile should be made up-stream, directly into [Lissy93/Dotfiles](https://github.com/lissy93/dotfiles) (in [`Brewfile`](https://github.com/Lissy93/dotfiles/blob/master/scripts/installs/Brewfile)), which will then be automatically synced to this repo.
-
-If you're new to GitHub, see the [documentation](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) for a step-by-step guide on how to submit edits to projects.
 
 ---
 
 ## License
 
-For licenses for each package listed here, see their websites.
+> **Note** For licenses for each package listed here, see their websites _(linked to [above](#package-list))_.
+
+_**[Lissy93/Brewfile](https://github.com/Lissy93/Brewfile)** is licensed under [MIT](https://github.com/Lissy93/Brewfile/blob/HEAD/LICENSE) © [Alicia Sykes](https://aliciasykes.com) 2022._
+
+<sup>For information, see [TLDR Legal > MIT](https://tldrlegal.com/license/mit-license)</sup>
 
 ```
 The MIT License (MIT)
@@ -341,8 +352,6 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTIO
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-
-<sup>For information, see [TLDR Legal > MIT](https://tldrlegal.com/license/mit-license)</sup>
 
 ---
 
