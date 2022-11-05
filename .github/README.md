@@ -24,7 +24,9 @@ bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
 
 Alternatively, you can just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
 
-If you wish to make any ammendments, you can [fork](https://github.com/Lissy93/Brewfile/fork) this repo to easily keep track of your own package list.
+> **Note** - **Tracking Changes** <br>If you wish to make any ammendments, it's recommended to [fork](https://github.com/Lissy93/Brewfile/fork) the repo, in order to easily keep track of your personal package list
+
+<sub>If you're running a fork of this project, be sure to replace [lissy93] with your own username!</sub>
 
 ---
 
