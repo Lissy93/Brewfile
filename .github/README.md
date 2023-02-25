@@ -10,7 +10,16 @@
 
 ## Getting Started
 
-To get started, just run the setup script:
+
+
+To get started, install [Homebrew](https://docs.brew.sh/Installation), then just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, and run `brew bundle --global` to install the listed packages. Done 🍻
+
+> **Note** - **Tracking Changes** <br>If you wish to make any ammendments, it's recommended to [fork](https://github.com/Lissy93/Brewfile/fork) the repo, in order to easily keep track of your personal package list.
+> If you're running a fork of this project, be sure to replace [lissy93] with your own username!
+
+---
+
+Alternatively, there's a guided install process, which can be initiated with:
 
 ```bash
 bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
@@ -21,11 +30,6 @@ bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
     <img width="650" src="https://i.ibb.co/g63WYBF/brewfile-install-script.png" alt="Brewfile automated installation script" />
   </a>
 </p>
-
-Alternatively, you can just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, then run `brew bundle --global` to install the listed packages.
-
-> **Note** - **Tracking Changes** <br>If you wish to make any ammendments, it's recommended to [fork](https://github.com/Lissy93/Brewfile/fork) the repo, in order to easily keep track of your personal package list.
-> If you're running a fork of this project, be sure to replace [lissy93] with your own username!
 
 ---
 
