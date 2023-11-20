@@ -14,9 +14,6 @@
 
 To get started, install [Homebrew](https://docs.brew.sh/Installation), then just download the [`Brewfile`](https://github.com/Lissy93/Brewfile/blob/master/Brewfile) to `~/.Brewfile`, make any desired changes, and run `brew bundle --global` to install the listed packages. Done 🍻
 
-> **Note** - **Tracking Changes** <br>If you wish to make any ammendments, it's recommended to [fork](https://github.com/Lissy93/Brewfile/fork) the repo, in order to easily keep track of your personal package list.
-> If you're running a fork of this project, be sure to replace [lissy93] with your own username!
-
 ---
 
 Alternatively, there's a guided install process, which can be initiated with:
@@ -30,6 +27,10 @@ bash <(curl -s https://lissy93.github.io/Brewfile/install.sh)
     <img width="650" src="https://i.ibb.co/g63WYBF/brewfile-install-script.png" alt="Brewfile automated installation script" />
   </a>
 </p>
+
+>  [!NOTE]
+> To keep track of your own personal package list [fork](https://github.com/Lissy93/Brewfile/fork) this repo<br>
+> And don't forget to replace [lissy93] with your own username!
 
 ---
 
@@ -366,7 +367,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- License + Copyright -->
 <p  align="center">
-  <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2022</i><br>
+  <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2022-23</i><br>
   <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
   <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
