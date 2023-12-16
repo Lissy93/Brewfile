@@ -331,7 +331,8 @@ Changes to the Brewfile should be made up-stream, directly into [Lissy93/Dotfile
 
 ## License
 
-> **Note** For licenses for each package listed here, see their websites _(linked to [above](#package-list))_.
+> [!NOTE]
+> > For licenses for each package listed here, see their websites _(linked to [above](#package-list))_.
 
 > _**[Lissy93/Brewfile](https://github.com/Lissy93/Brewfile)** is licensed under [MIT](https://github.com/Lissy93/Brewfile/blob/HEAD/LICENSE) © [Alicia Sykes](https://aliciasykes.com) 2022._<br>
 > <sup align="right">For information, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal > MIT</a></sup>
